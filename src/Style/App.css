@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-wrapper{
+    background-color: black;
+}
+.wrapper-app{
+    max-width: 430px;
+    min-height: 100vh;
+    background-color: red;
+    margin: 0 auto;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}

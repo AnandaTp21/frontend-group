@@ -1,9 +1,11 @@
-import { useContext } from "react";
+import { useContext,useEffect } from "react";
 import { MainDataContext } from "../Context/Maindata";
 function Home() {
-    const [namaWeb] = useContext(MainDataContext)
+  const [DataWeb,linkData] = useContext(MainDataContext)
+  useEffect(()=>{
+    },[])
     return ( 
-        <h1>{namaWeb}</h1>
+       <a href="/RTP">asdaiosdj</a>
      );
 }
 
