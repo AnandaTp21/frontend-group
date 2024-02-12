@@ -6,7 +6,6 @@ export default function MainDataContextFunc({ children }) {
     name : "Garuda Gaming",
     mainColor : "",
   }];
-  let params = 0
   let keys = [
     "676877",
     "26a3bd",
@@ -16,7 +15,7 @@ export default function MainDataContextFunc({ children }) {
     "95a158",
     "9f9874",
   ];
-  let DataWeb = listDataWeb[params]
+  let DataWeb = listDataWeb[0]
   let key = keys[new Date(Date.now()).getUTCDay()]
 
   async function  getData(endpoint){

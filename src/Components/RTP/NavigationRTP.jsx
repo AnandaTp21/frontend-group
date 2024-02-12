@@ -21,6 +21,7 @@ function NavigationRTP({ provider, setProvider, setData }) {
     "Red Tiger",
     "Net Ent",
     "Big Time Gaming",
+
   ]);
   return (
   <div>

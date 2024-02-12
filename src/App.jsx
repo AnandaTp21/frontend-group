@@ -6,7 +6,10 @@ import Prediksi from "./Pages/Prediksi";
 import Booster from "./Pages/Booster";
 import RTP from "./Pages/Rtp";
 import "./Style/app.css"
+import { useContext } from "react";
+import { MainDataContext } from "./Context/Maindata";
 function App() {
+  const [DataWeb] =useContext(MainDataContext)
   let router = useRoutes(
     [
       {path : "/", element : <Home/>},
